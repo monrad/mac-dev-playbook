@@ -15,6 +15,9 @@ dockitems_remove:
   - Podcasts
   - 'App Store'
   - Music
+  - Pages
+  - Keynote
+  - Numbers
 dockitems_persist: []
 # - name: "Sublime Text"
 #   path: "/Applications/Sublime Text.app/"
