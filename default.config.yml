@@ -10,21 +10,21 @@ configure_zsh: true
 configure_dock: true
 #dockitems_remove: []
 dockitems_remove:
-  - Launchpad
-  - TV
-  - Podcasts
-  - 'App Store'
-  - Music
-  - Pages
+  - "App Store"
   - Keynote
+  - Launchpad
+  - Music
   - Numbers
+  - Pages
+  - Podcasts
+  - TV
 dockitems_persist: []
 # - name: "Sublime Text"
 #   path: "/Applications/Sublime Text.app/"
 #   pos: 5
 
 configure_sudoers: false
-sudoers_custom_config: ''
+sudoers_custom_config: ""
 # Example:
 # sudoers_custom_config: |
 #   # Allow users in admin group to use sudo with no password.
@@ -44,6 +44,7 @@ dotfiles_files:
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - coreutils
+  - fzf
   - git
   - git-lfs
   - gnupg
@@ -59,9 +60,8 @@ homebrew_installed_packages:
   - wget
   - whois
   - xping
-  - zsh-syntax-highlighting
   - zsh-autosuggestions
-  - fzf
+  - zsh-syntax-highlighting
 
 homebrew_taps:
   - homebrew/core
@@ -74,12 +74,12 @@ homebrew_cask_apps:
   - docker
   - firefox
   - google-chrome
-  - slack
-  - serial
-  - sublime-text
   - google-earth-pro
   - iterm2
   - logitech-camera-settings
+  - serial
+  - slack
+  - sublime-text
   - visual-studio-code
   - wireshark
 
@@ -115,10 +115,10 @@ npm_packages: []
 pip_packages:
   - name: git-cu
     state: latest
-    
+
 # Set to 'true' to configure Sublime Text.
 configure_sublime: false
-sublime_base_path: '~/Library/Application Support/Sublime Text'
+sublime_base_path: "~/Library/Application Support/Sublime Text"
 sublime_config_path: "Packages/User"
 sublime_package_control:
   - "DocBlockr"
