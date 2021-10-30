@@ -30,10 +30,6 @@
       when: configure_sudoers
       tags: ['sudoers']
 
-    - import_tasks: tasks/terminal.yml
-      when: configure_terminal
-      tags: ['terminal']
-
     - import_tasks: tasks/osx.yml
       when: configure_osx
       tags: ['osx']
@@ -44,6 +40,10 @@
     - import_tasks: tasks/sublime-text.yml
       when: configure_sublime
       tags: ['sublime-text']
+
+    - import_tasks: tasks/ohmyzsh.yml
+      when: configure_zsh
+      tags: ['zsh']
 
     - name: Run configured post-provision ansible task files.
       include_tasks: "{{ outer_item }}"
