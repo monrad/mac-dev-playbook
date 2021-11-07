@@ -91,6 +91,9 @@ homebrew_cask_apps:
 mas_installed_apps:
   - { id: 1384080005, name: "Tweetbot 3 for Twitter" }
   - { id: 413857545, name: "Divvy - Window Manager" }
+mas_uninstalled_apps:
+  - { id: 408981434, name: "iMovie" }
+  - { id: 682658836, name: "GarageBand" }
 mas_email: ""
 mas_password: ""
 
