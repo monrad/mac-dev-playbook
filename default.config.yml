@@ -8,20 +8,44 @@ configure_zsh: true
 
 # Set to 'true' to configure the Dock via dockutil.
 configure_dock: true
-#dockitems_remove: []
 dockitems_remove:
   - "App Store"
+  - Calendar
+  - Contacts
+  - FaceTime
   - Keynote
   - Launchpad
+  - Mail
+  - Maps
   - Music
+  - Notes
   - Numbers
   - Pages
+  - Photos
   - Podcasts
   - TV
-dockitems_persist: []
-# - name: "Sublime Text"
-#   path: "/Applications/Sublime Text.app/"
-#   pos: 5
+dockitems_persist:
+  - name: "Safari"
+    path: "Applications/Safari.app/"
+    pos: 1
+  - name: "Messages"
+    path: "/System/Applications/Messages.app/"
+    pos: 2
+  - name: "Reminders"
+    path: "/System/Applications/Reminders.app/"
+    pos: 3
+  - name: "iTerm"
+    path: "/Applications/iTerm.app/"
+    pos: 4
+  - name: "Tweetbot"
+    path: "/Applications/Tweetbot.app/"
+    pos: 5
+  - name: "Slack"
+    path: "/Applications/Slack.app/"
+    pos: 6
+  - name: "System Preferences"
+    path: "/System/Applications/System%20Preferences.app/"
+    pos: 7
 
 configure_sudoers: false
 sudoers_custom_config: ""
