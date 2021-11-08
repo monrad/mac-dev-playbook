@@ -26,7 +26,7 @@ dockitems_remove:
   - TV
 dockitems_persist:
   - name: "Safari"
-    path: "Applications/Safari.app/"
+    path: "/Applications/Safari.app/"
     pos: 1
   - name: "Messages"
     path: "/System/Applications/Messages.app/"
