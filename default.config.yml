@@ -78,6 +78,7 @@ homebrew_installed_packages:
   - jq
   - mtr
   - pinentry-mac
+  - pwgen
   - pyenv
   - sipcalc
   - tmate
