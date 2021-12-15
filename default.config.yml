@@ -81,6 +81,7 @@ homebrew_installed_packages:
   - pwgen
   - pyenv
   - sipcalc
+  - telnet
   - tmate
   - tmux
   - wget
