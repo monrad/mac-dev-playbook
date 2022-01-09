@@ -80,6 +80,7 @@ homebrew_installed_packages:
   - pinentry-mac
   - pwgen
   - pyenv
+  - ripgrep
   - sipcalc
   - telnet
   - tmate
