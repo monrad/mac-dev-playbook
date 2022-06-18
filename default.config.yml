@@ -70,6 +70,7 @@ homebrew_installed_packages:
   - coreutils
   - fd
   - fzf
+  - gh
   - git
   - git-lfs
   - gnupg
@@ -109,9 +110,12 @@ homebrew_cask_apps:
   - iterm2
   - logitech-camera-settings
   - serial
+  - signal
   - slack
   - sublime-text
+  - telegram
   - visual-studio-code
+  - whatsapp
   - wireshark
   - zoom
 
